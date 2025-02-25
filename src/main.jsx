@@ -9,7 +9,7 @@ const amplifyConfig = {
   aws_appsync_graphqlEndpoint: import.meta.env.VITE_AWS_APPSYNC_GRAPHQL_ENDPOINT,
   aws_appsync_region: import.meta.env.VITE_AWS_APPSYNC_REGION,
   aws_appsync_authenticationType: "API_KEY",
-  aws_appsync_apiKey: import.meta.env.VITE_AWS_APPSYNC_API_KEY,
+  aws_appsync_apiKey: import.meta.env.VITE_AWS_APPSYNC_API,
   aws_cognito_identity_pool_id: import.meta.env.VITE_AWS_COGNITO_IDENTITY_POOL_ID,
   aws_cognito_region: import.meta.env.VITE_AWS_COGNITO_REGION,
   aws_user_pools_id: import.meta.env.VITE_AWS_USER_POOLS_ID,
